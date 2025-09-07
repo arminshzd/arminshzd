@@ -21,23 +21,14 @@ I build methods and tools at the intersection of **molecular modeling, machine l
 ### 🔹 GADES: Rare Event Sampling
 Adapted the **saddle-seeking principle of GAD** into a practical scheme for enhanced molecular dynamics. Instead of inverting unstable modes, GADES gently damps the softest Hessian direction, allowing trajectories to escape local minima without trapping at saddles.
 
+### 🔹 PCC-FECalc: Free Energy Calculator for PCCs
+End-to-end Python framework for automating binding free energy calculations of protein-catalyzed capture agents. Integrates structure building, parametrization, PBMetaD simulations (GROMACS), and post-processing to deliver ΔG and Kd with uncertainty estimates.
+
 ### 🔹 EF-TSS (Eigenvector Following Transition State Search)
-Developed a Python class implementing **transition state search** algorithms, with full `pytest` coverage:
-- Gaussian job management  
-- Gradient/Hessian analysis & eigenmode alignment  
-- Numerical stability and regression testing  
-
-### 🔹 CalcD5 Regression Suite
-Built a comprehensive set of regression tests for the **CalcD5** class, ensuring reproducibility and stability of descriptor calculations.
-
-### 🔹 FAIR Chemistry Collaboration
-Benchmarked and validated **Meta’s UMA MLIP** for protein simulations, exploring how MLIPs compare with classical force fields.
+A Python implementation of the eigenvector-following transition state search (EF-TSS) algorithm, leveraging the PRFO method and Bofill's Hessian estimation via Gaussian. Users input a settings JSON and initial coordinates, and the tool iteratively converges on a transition state by calling Gaussian for energy and Hessian evaluations, with built-in pytest coverage.  
 
 ### 🔹 Bayesian Optimization for Screening
 Applied Bayesian optimization to accelerate **protein-ligand screening**, integrating molecular dynamics with ML-based surrogate models.
-
-### 🔹 TDA for Molecular Networks
-Used **persistent homology** to characterize hydrogen bond networks in water and biomolecular systems, employing Vietoris–Rips complexes and correlation-based feature bagging.
 
 ---
 

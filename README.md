@@ -1,5 +1,4 @@
-# 👋 Hi, I'm Armin Shayesteh Zadeh
-
+# 👋 Hi, I'm Armin
 🎓 Postdoctoral Researcher @ University of Chicago (PME)  
 ⚛️ Computational Chemist • Machine Learning Researcher • HPC Enthusiast  
 

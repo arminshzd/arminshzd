@@ -32,20 +32,11 @@ Applied Bayesian optimization to accelerate **protein-ligand screening**, integr
 
 ---
 
-## 📦 Tools & Code Contributions
-
-- ⚙️ **HPC Workflows**: Parallelized job submission, regression testing, Docker + GROMACS/PLUMED environments  
-- 🧩 **ML + Physics Integration**: Differentiable PCA in PyTorch, jit-compilable tensor ops for periodic inputs  
-- 📊 **Visualization**: Matplotlib/Plotly for free energy surfaces, VMD/NGLView for molecular interactions  
-
----
-
 ## 📫 Let’s Connect
 
-- 🌐 [Google Scholar](#)  
-- 💼 [LinkedIn](#)  
-- 🐦 [Twitter](#) (optional if you want to include)  
-- ✉️ armin@example.com  
+- 🌐 [Google Scholar](https://scholar.google.com/citations?user=MzzCX3UAAAAJ&hl=en)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/arminshzd/)  
+- ✉️ arminshzd[at]gmail.com
 
 ---
 
